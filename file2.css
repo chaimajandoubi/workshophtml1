@@ -1,0 +1,32 @@
+/* * { */
+/* background-color: red; */
+/* padding: 0;
+  margin: 0;
+} */
+#home {
+  background-color: bisque;
+}
+.ch {
+  padding: 100px;
+  margin: 0;
+}
+#about {
+  background-color: rgb(221, 165, 219);
+
+  #11 {
+    background-color: rgb(102, 74, 127);
+  }
+  #chai {
+    justify-content: center;
+  }
+}
+#jj {
+  background-color: rgb(135, 215, 222);
+}
+
+/* .web {
+    color: #8a0800
+  }
+  #o1 {
+    border-style: solid;
+  } */

@@ -5,36 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="file2.css" />
   </head>
   <body>
-    <header id="home">
-      <img src="primas.png" alt="error" />
+    <header style="border-style: solid" id="home">
+      <img src="primas.png" alt="error" width="70" height="50" />
       <nav>
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#contact">contact</a>
+        <a href="file2.html" class="ch">home</a>
+        <a href="#about" class="ch">about</a>
+        <a href="#contact" class="ch">contact</a>
       </nav>
     </header>
-    <main id="about">
-      <dl>
-        <dt>about</dt>
-        <dd>name</dd>
-        <dd>last name</dd>
-        <dd>academic background</dd>
-      </dl>
+    <main style="border-style: solid" id="about">
+      <h1 id="11">about</h1>
+      <ol type="I">
+        <li class="15">name</li>
+        <li class="15">last name</li>
+        <li class="15">academic background</li>
+      </ol>
       <iframe
         width="719"
         height="546"
         src="https://www.youtube.com/embed/CjduWj2GIhY?list=PLtKHe7Z2QnnH8hjtv4Ehv4x00ZDIhifUr"
         title="مسلسل شوفلي حل - الموسم 2005 - الحلقة الثلاثون"
+        id="chai"
       ></iframe>
     </main>
-    <footer id="contact">
+    <footer style="border-style: solid" id="contact">
       <table>
-        <form action="contact">
+        <form action="form.html" class="jj">
           <tr>
             <td>name</td>
-            <td><input type="text" name="name" /></td>
+            <td class="kk"><input type="text" name="name" /></td>
           </tr>
           <tr>
             <td>last name</td>
@@ -62,6 +64,7 @@
           </tr>
 
           <td><input type="submit" value="send" /></td>
+          <td><input type="reset" value="reset" /></td>
         </form>
       </table>
     </footer>
